@@ -19,15 +19,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: pnpm
+          cache: npm
 
       - name: Install dependencies
-        run: |
-          corepack enable
-          pnpm install
+        run: npm install
 
       - name: Build and Export
-        run: pnpm deploy
+        run: npm run deploy
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
