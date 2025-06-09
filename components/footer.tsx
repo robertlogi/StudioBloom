@@ -12,10 +12,10 @@ export function Footer() {
               <div className="flex items-center justify-center">
                 <Mail className="h-5 w-5 text-[#2c3e2d] mr-3" />
                 <a
-                  href="mailto:contact@studiobloom.is"
+                  href="mailto:asta@studiobloom.is"
                   className="text-[#4a4a4a] hover:text-[#2c3e2d] transition-colors"
                 >
-                  contact@studiobloom.is
+                  asta@studiobloom.is
                 </a>
               </div>
               <div className="flex items-center justify-center">
@@ -32,7 +32,7 @@ export function Footer() {
             <h3 className="font-cormorant text-2xl text-[#2c3e2d] mb-6">Samfélagsmiðlar</h3>
             <div className="flex space-x-6 justify-center">
               <a
-                href="https://www.instagram.com/studio.bloom.reykjavik?igsh=OGo2c3l6ZnAzZHc0"
+                href="https://www.instagram.com/studiobloom.is/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#2c3e2d] hover:opacity-80 transition-opacity"

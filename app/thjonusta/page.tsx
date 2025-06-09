@@ -34,29 +34,29 @@ export default function ServicesPage() {
             <h2 className="text-3xl md:text-4xl text-[#2c3e2d] mb-6">Áskriftarleiðir okkar</h2>
             <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg">
               Við bjóðum upp á mismunandi áskriftarleiðir til að mæta þörfum allra viðskiptavina okkar. Allar áskriftir
-              innihalda hágæða silkiblóm og afhendingu heim að dyrum.
+              innihalda hágæða silkiblóm og afhendingu í þitt fyrirtæki.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-10">
             <ServiceCard
-              title="Mánaðarleg áskrift"
-              description="Ný blómasamsetning afhent einu sinni í mánuði."
-              price="12.900 kr. á mánuði"
+              title="Lítil skreyting"
+              description="Nett og fáguð skreyting sem hentar minni rýmum eins og móttökum, skrifborðum eða salernum."
+              price="9.900 kr. á mánuði"
               imageSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2005_0186.JPG-uXphAJnqGCCtBcm8IRD7yDmd7uBOtF.jpeg"
               delay={0}
             />
             <ServiceCard
-              title="Árstíðabundin áskrift"
-              description="Ný blómasamsetning afhent á þriggja mánaða fresti, í takt við árstíðir."
-              price="14.900 kr. á afhendingu"
+              title="Miðlungs skreyting"
+              description="Vel mótuð og áberandi skreyting fyrir fundarherbergi, biðstofur eða kaffirými."
+              price="14.900 kr. á mánuði"
               imageSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2003_SHOT%2005_0434.JPG-VmV3GhtE1G9mQcmJLCFDVG6pwuK38Q.jpeg"
               delay={200}
             />
             <ServiceCard
-              title="Árleg áskrift"
-              description="Tvær stórar blómasamsetningar afhentar á ári."
-              price="24.900 kr. á afhendingu"
+              title="Stór skreyting"
+              description="Stór og glæsileg skreyting sem setur svip á anddyri, veitingasali eða aðalrými."
+              price="19.900 kr. á mánuði"
               imageSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2004_0159.JPG-DMYV8IGw3cKcXM6a8ESnPNxA55VdX8.jpeg"
               delay={400}
             />
@@ -65,7 +65,7 @@ export default function ServicesPage() {
       </section>
 
       {/* How It Works */}
-      <section ref={howItWorksRef} className="section-spacing bg-[#f3f0eb]">
+      {/* <section ref={howItWorksRef} className="section-spacing bg-[#f3f0eb]">
         <div
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${howItWorksInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
@@ -92,7 +92,7 @@ export default function ServicesPage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Custom Services */}
       <section ref={customRef} className="section-spacing">
@@ -120,7 +120,7 @@ export default function ServicesPage() {
                 <div className="pt-4">
                   <Link
                     href="/hafa-samband"
-                    className="inline-block px-8 py-3 bg-[#2c3e2d] text-white hover:bg-[#1a2a1b] transition-colors duration-300"
+                    className="inline-block px-8 py-3 bg-[#948774] text-white hover:bg-[#675B48] transition-colors duration-300"
                   >
                     Hafa samband
                   </Link>
@@ -132,7 +132,7 @@ export default function ServicesPage() {
       </section>
 
       {/* FAQ */}
-      <section ref={faqRef} className="section-spacing bg-[#f3f0eb]">
+      {/* <section ref={faqRef} className="section-spacing bg-[#f3f0eb]">
         <div
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${faqInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
@@ -161,7 +161,7 @@ export default function ServicesPage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
@@ -194,7 +194,7 @@ function ServiceCard({
         <div className="mt-6">
           <Link
             href="/hafa-samband"
-            className="inline-block w-full text-center py-3 bg-[#f3f0eb] text-[#2c3e2d] hover:bg-[#2c3e2d] hover:text-white transition-colors duration-300"
+            className="inline-block w-full text-center py-3 bg-[#f3f0eb] text-[#2c3e2d] hover:bg-[#675B48] hover:text-white transition-colors duration-300"
           >
             Gerast áskrifandi
           </Link>

@@ -67,7 +67,7 @@ export default function GalleryPage() {
       </section>
 
       {/* Categories */}
-      <section ref={categoriesRef} className="section-spacing bg-[#f3f0eb]">
+      {/* <section ref={categoriesRef} className="section-spacing bg-[#f3f0eb]">
         <div
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${categoriesInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
@@ -94,7 +94,7 @@ export default function GalleryPage() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

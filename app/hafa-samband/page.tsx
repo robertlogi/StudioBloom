@@ -35,7 +35,7 @@ export default function ContactPage() {
                 Hafðu samband við okkur ef þú hefur einhverjar spurningar um þjónustu okkar eða vilt gerast áskrifandi.
                 Við svörum öllum fyrirspurnum eins fljótt og auðið er.
               </p>
-              <ContactForm />
+              {/* <ContactForm /> */}
             </div>
 
             <div
@@ -48,8 +48,8 @@ export default function ContactPage() {
                 <ContactInfoItem
                   icon={<Mail className="h-6 w-6 text-[#2c3e2d]" />}
                   title="Netfang"
-                  content="contact@studiobloom.is"
-                  link="mailto:contact@studiobloom.is"
+                  content="asta@studiobloom.is"
+                  link="mailto:asta@studiobloom.is"
                 />
                 <ContactInfoItem
                   icon={<Phone className="h-6 w-6 text-[#2c3e2d]" />}

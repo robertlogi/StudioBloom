@@ -38,7 +38,7 @@ export default function Home() {
           }}
         >
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2001-COVER_2.JPG-LsZT2oIijggWHIB6Xu9SJm9ax7oQ5w.jpeg"
+            src="/hero-section-flowers.jpeg"
             alt="Falleg blóm frá Studio Bloom"
             fill
             className="object-cover"
@@ -51,14 +51,14 @@ export default function Home() {
             <span className="block">Studio</span>
             <span className="block font-medium">Bloom</span>
           </h1>
-          <p className="text-white text-xl md:text-2xl mb-10 font-light animate-fade-in animation-delay-200">
+          <p className="text-white text-xl md:text-2xl mb-10 font-normal animate-fade-in animation-delay-200">
             Hágæða silkiblóm í áskrift
           </p>
           <Link
-            href="/hafa-samband"
-            className="inline-block px-8 py-3 bg-[#2c3e2d] text-white hover:bg-[#1a2a1b] transition-colors duration-300 text-lg animate-fade-in animation-delay-400"
+            href="/thjonusta"
+            className="inline-block px-8 py-3 bg-[#948774] text-white hover:bg-[#675B48] transition-colors duration-300 text-lg animate-fade-in animation-delay-400"
           >
-            Gerast áskrifandi
+            Skoða þjónustur
           </Link>
         </div>
       </section>
@@ -70,13 +70,16 @@ export default function Home() {
         >
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl text-[#2c3e2d] mb-6">Velkomin í Studio Bloom</h2>
-            <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg">
-              Við bjóðum upp á hágæða silkiblóm í áskrift sem færa fegurð og ró í daglegt líf. Hver sending er handvalin
-              af blómasérfræðingum okkar til að tryggja að þú fáir aðeins fallegustu blómin.
+            <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg leading-loose whitespace-pre-line">
+              Silkiblóm í áskrift færa líf og fegurð inn á þinn vinnustað.
+              {"\n"}
+              Áhyggjulaus og viðhaldsfrí leið til þess að hámarka upplifun viðskipta þinna.
+              {"\n"}
+              Hver skreyting er sérhönnuð fyrir rýmið þitt og er endurnýjuð á þriggja mánaða fresti.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             <FeatureCard
               title="Hágæða silkiblóm"
               description="Náttúruleg og endingargóð silkiblóm sem líta út eins og fersk blóm."
@@ -92,7 +95,7 @@ export default function Home() {
               description="Við sjáum um að koma blómunum til þín, hvert sem er á landinu."
               delay={400}
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -110,15 +113,15 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <GalleryPreviewItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2005_0186.JPG-uXphAJnqGCCtBcm8IRD7yDmd7uBOtF.jpeg"
+              src="IMG_3195.jpg"
               delay={0}
             />
             <GalleryPreviewItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2003_SHOT%2005_0434.JPG-VmV3GhtE1G9mQcmJLCFDVG6pwuK38Q.jpeg"
+              src="IMG_3255.jpg"
               delay={200}
             />
             <GalleryPreviewItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2004_0159.JPG-DMYV8IGw3cKcXM6a8ESnPNxA55VdX8.jpeg"
+              src="IMG_3247.jpg"
               delay={400}
             />
           </div>
@@ -126,7 +129,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link
               href="/myndasafn"
-              className="inline-block px-8 py-3 bg-[#2c3e2d] text-white hover:bg-[#1a2a1b] transition-colors duration-300"
+              className="inline-block px-8 py-3 bg-[#948774] text-white hover:bg-[#675B48] transition-colors duration-300"
             >
               Sjá meira
             </Link>
@@ -135,20 +138,31 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section ref={ctaRef} className="section-spacing bg-white">
+      <section
+        ref={ctaRef}
+        className="section-spacing relative bg-white"
+      >
+        <div className="absolute inset-0 w-full h-full z-0">
+          <img
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2014_2710.JPG-LW1ZLPqrPqv3WuZWZJpphvvLbYTI3q.jpeg"
+            alt="Tilbúin að byrja? bakgrunnsmynd"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/60"></div>
+        </div>
         <div
-          className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${ctaInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+          className={`container mx-auto px-4 max-w-6xl transition-all duration-700 relative z-10 ${ctaInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
-          <div className="bg-[#f3f0eb] p-12 md:p-16 lg:p-20 rounded-lg text-center">
+          <div className="bg-[#f3f0eb] p-10 md:p-16 lg:p-10 rounded-lg text-center max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl text-[#2c3e2d] mb-6">Tilbúin að byrja?</h2>
             <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg mb-8">
-              Gerast áskrifandi að Studio Bloom í dag og njóttu þess að hafa falleg blóm á heimilinu allt árið.
+              Komdu í hóp ánægðra viðskiptavina Studio Bloom í dag og njóttu þess að hafa falleg blóm á þínum vinnustað allt árið.
             </p>
             <Link
               href="/hafa-samband"
-              className="inline-block px-8 py-3 bg-[#2c3e2d] text-white hover:bg-[#1a2a1b] transition-colors duration-300 text-lg"
+              className="inline-block px-8 py-3 bg-[#948774] text-white hover:bg-[#675B48] transition-colors duration-300 text-lg"
             >
-              Gerast áskrifandi
+              Hafa samband
             </Link>
           </div>
         </div>
@@ -172,7 +186,7 @@ function FeatureCard({ title, description, delay = 0 }: { title: string; descrip
 function GalleryPreviewItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
-      className="group relative h-80 overflow-hidden rounded-lg animate-fade-in"
+      className="group relative aspect-[4/5] max-w-xs w-full overflow-hidden rounded-lg animate-fade-in"
       style={{ animationDelay: `${delay}ms` }}
     >
       <Image

@@ -29,9 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="is" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/studio-bloom-logo.png" />
+      </head>
       <body className={`${montserrat.variable} ${cormorant.variable} font-sans bg-[#faf9f7]`}>
         <Header />
-        <main className="min-h-screen pt-20">{children}</main>
+        <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>

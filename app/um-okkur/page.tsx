@@ -40,7 +40,7 @@ export default function AboutPage() {
                   krefjast engrar umhirðu.
                 </p>
                 <p className="text-[#4a4a4a] text-lg">
-                  Áskriftarþjónusta okkar gerir viðskiptavinum kleift að njóta fegurðar blóma allt árið um kring, án
+                  Áskriftarþjónusta okkar gerir viðskiptavinum kleift að njóta fegurðar blóma allt árið um kring án
                   þess að hafa áhyggjur af því að þau visni.
                 </p>
               </div>
@@ -77,7 +77,7 @@ export default function AboutPage() {
             />
             <ValueCard
               title="Fagurfræði"
-              description="Hver blómasamsetning er hönnuð af reyndum blómasérfræðingum."
+              description="Hver blómasamsetning er sérhönnuð til að passa við þitt rými."
               delay={400}
             />
           </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section ref={teamRef} className="section-spacing">
+      {/* <section ref={teamRef} className="section-spacing">
         <div
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${teamInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
@@ -106,7 +106,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
