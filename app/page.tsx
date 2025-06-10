@@ -111,19 +111,21 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <GalleryPreviewItem
-              src="IMG_3195.jpg"
-              delay={0}
-            />
-            <GalleryPreviewItem
-              src="IMG_3255.jpg"
-              delay={200}
-            />
-            <GalleryPreviewItem
-              src="IMG_3247.jpg"
-              delay={400}
-            />
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 inline-grid">
+              <GalleryPreviewItem
+                src="IMG_3195.jpg"
+                delay={0}
+              />
+              <GalleryPreviewItem
+                src="IMG_3255.jpg"
+                delay={200}
+              />
+              <GalleryPreviewItem
+                src="IMG_3247.jpg"
+                delay={400}
+              />
+            </div>
           </div>
 
           <div className="text-center mt-12">
@@ -186,7 +188,7 @@ function FeatureCard({ title, description, delay = 0 }: { title: string; descrip
 function GalleryPreviewItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
-      className="group relative aspect-[4/5] max-w-xs w-full overflow-hidden rounded-lg animate-fade-in"
+      className="group relative aspect-[4/5] max-w-xs w-full min-h-[320px] overflow-hidden rounded-lg animate-fade-in"
       style={{ animationDelay: `${delay}ms` }}
     >
       <Image

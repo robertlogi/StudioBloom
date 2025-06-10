@@ -27,40 +27,96 @@ export default function GalleryPage() {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2005_0186.JPG-uXphAJnqGCCtBcm8IRD7yDmd7uBOtF.jpeg"
+              src="/IMG_3181.jpg"
               delay={0}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2003_SHOT%2005_0434.JPG-VmV3GhtE1G9mQcmJLCFDVG6pwuK38Q.jpeg"
+              src="/IMG_3060.jpg"
               delay={100}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2004_0159.JPG-DMYV8IGw3cKcXM6a8ESnPNxA55VdX8.jpeg"
+              src="/IMG_3166.jpg"
               delay={200}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2013_2581%20kopie.JPG-IIPeParTDJC1lhpwIoSa8GwZfrpic1.jpeg"
+              src="/IMG_3050.jpg"
               delay={300}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2013_2614%20kopie.JPG-kdyi9GUZjDiaeDuaPPbsQ8aa7CCkBi.jpeg"
+              src="/IMG_3155.jpg"
               delay={400}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2003_1413%20kopie.JPG-CC81Ej4oYxZMjFsdIQIrlBpfopsT74.jpeg"
+              src="/IMG_3059.jpg"
               delay={500}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2005_1539%201.JPG-hqVqtw6xWFCsj5JRXg2BAGAM4WCIf3.jpeg"
+              src="/IMG_3177.jpg"
               delay={600}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2014_2710.JPG-LW1ZLPqrPqv3WuZWZJpphvvLbYTI3q.jpeg"
+              src="/IMG_3200.jpg"
               delay={700}
             />
             <GalleryItem
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2001-COVER_2.JPG-LsZT2oIijggWHIB6Xu9SJm9ax7oQ5w.jpeg"
+              src="/IMG_3195.jpg"
               delay={800}
+            />
+            <GalleryItem
+              src="/IMG_3239.jpg"
+              delay={900}
+            />
+            {/* <GalleryItem
+              src="/IMG_3247.jpg"
+              delay={1000}
+            /> */}
+            <GalleryItem
+              src="/IMG_3253.jpg"
+              delay={1000}
+            />
+            {/* <GalleryItem
+              src="/IMG_3255.jpg"
+              delay={1200}
+            /> */}
+            <GalleryItem
+              src="/IMG_3256.jpg"
+              delay={1100}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2005_0186.JPG-uXphAJnqGCCtBcm8IRD7yDmd7uBOtF.jpeg"
+              delay={1200}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2003_SHOT%2005_0434.JPG-VmV3GhtE1G9mQcmJLCFDVG6pwuK38Q.jpeg"
+              delay={1300}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2004_0159.JPG-DMYV8IGw3cKcXM6a8ESnPNxA55VdX8.jpeg"
+              delay={1400}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2013_2581%20kopie.JPG-IIPeParTDJC1lhpwIoSa8GwZfrpic1.jpeg"
+              delay={1500}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2013_2614%20kopie.JPG-kdyi9GUZjDiaeDuaPPbsQ8aa7CCkBi.jpeg"
+              delay={1600}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2003_1413%20kopie.JPG-CC81Ej4oYxZMjFsdIQIrlBpfopsT74.jpeg"
+              delay={1700}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2005_1539%201.JPG-hqVqtw6xWFCsj5JRXg2BAGAM4WCIf3.jpeg"
+              delay={1800}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2014_2710.JPG-LW1ZLPqrPqv3WuZWZJpphvvLbYTI3q.jpeg"
+              delay={1900}
+            />
+            <GalleryItem
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2001-COVER_2.JPG-LsZT2oIijggWHIB6Xu9SJm9ax7oQ5w.jpeg"
+              delay={2000}
             />
           </div>
         </div>
@@ -102,7 +158,7 @@ export default function GalleryPage() {
 function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
-      className="group relative h-80 overflow-hidden rounded-lg animate-fade-in"
+      className="group relative aspect-[4/5] w-full max-w-xs min-h-[320px] overflow-hidden rounded-lg animate-fade-in"
       style={{ animationDelay: `${delay}ms` }}
     >
       <Image

@@ -41,21 +41,21 @@ export default function ServicesPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <ServiceCard
               title="Lítil skreyting"
-              description="Nett og fáguð skreyting sem hentar minni rýmum eins og móttökum, skrifborðum eða salernum."
+              description="Nett og fáguð skreyting sem hentar minni rýmum eins og móttökum, skrifborðum eða salernum. Endurnýjuð á þriggja mánaða fresti."
               price="9.900 kr. á mánuði"
               imageSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2005_0186.JPG-uXphAJnqGCCtBcm8IRD7yDmd7uBOtF.jpeg"
               delay={0}
             />
             <ServiceCard
               title="Miðlungs skreyting"
-              description="Vel mótuð og áberandi skreyting fyrir fundarherbergi, biðstofur eða kaffirými."
+              description="Vel mótuð og áberandi skreyting fyrir fundarherbergi, biðstofur eða kaffirými. Endurnýjuð á þriggja mánaða fresti."
               price="14.900 kr. á mánuði"
               imageSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2003_SHOT%2005_0434.JPG-VmV3GhtE1G9mQcmJLCFDVG6pwuK38Q.jpeg"
               delay={200}
             />
             <ServiceCard
               title="Stór skreyting"
-              description="Stór og glæsileg skreyting sem setur svip á anddyri, veitingasali eða aðalrými."
+              description="Stór og glæsileg skreyting sem setur svip á anddyri, veitingasali eða aðalrými. Endurnýjuð á þriggja mánaða fresti."
               price="19.900 kr. á mánuði"
               imageSrc="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_SHOT%2004_0159.JPG-DMYV8IGw3cKcXM6a8ESnPNxA55VdX8.jpeg"
               delay={400}
