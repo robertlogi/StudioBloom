@@ -6,10 +6,8 @@ import { useInView } from "@/hooks/use-in-view"
 
 export default function GalleryPage() {
   const galleryRef = useRef<HTMLDivElement>(null)
-  const categoriesRef = useRef<HTMLDivElement>(null)
 
   const galleryInView = useInView(galleryRef, { once: true })
-  const categoriesInView = useInView(categoriesRef, { once: true })
 
   return (
     <>
@@ -120,18 +118,19 @@ export default function GalleryPage() {
 function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
-      className="group relative aspect-[4/5] w-full max-w-xs min-h-[320px] overflow-hidden rounded-lg animate-fade-in"
+      className="group relative w-full aspect-[4/5] overflow-hidden rounded-lg animate-fade-in"
       style={{ animationDelay: `${delay}ms` }}
     >
       <Image
         src={src || "/placeholder.svg"}
         alt="Blómasamsetning"
         fill
-        className="object-cover transition-transform duration-500 group-hover:scale-105"
+        className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
       />
     </div>
   )
 }
+
 
 function CategoryCard({
   title,
