@@ -146,7 +146,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 w-full h-full z-0">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2014_2710.JPG-LW1ZLPqrPqv3WuZWZJpphvvLbYTI3q.jpeg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2013_2581%20kopie.JPG-IIPeParTDJC1lhpwIoSa8GwZfrpic1.jpeg"
             alt="Tilbúin að byrja? bakgrunnsmynd"
             className="w-full h-full object-cover"
           />
