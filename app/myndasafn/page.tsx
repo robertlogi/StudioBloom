@@ -118,7 +118,7 @@ export default function GalleryPage() {
 function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
-      className="group relative aspect-[4/5] w-full max-w-xs overflow-hidden rounded-lg animate-fade-in"
+      className="group relative aspect-[4/5] w-full max-w-xs min-h-[320px] overflow-hidden rounded-lg animate-fade-in mx-auto"
       style={{ animationDelay: `${delay}ms` }}
     >
       <Image
