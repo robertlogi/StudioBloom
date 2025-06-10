@@ -19,10 +19,13 @@ export default function GalleryPage() {
       </section>
 
       {/* Gallery Grid */}
-      <section ref={galleryRef} className="section-spacing">
+      {/* <section ref={galleryRef} className="section-spacing">
         <div
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${galleryInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-        >
+        > */}
+      <section className="section-spacing">
+        <div className="container mx-auto px-4 max-w-6xl opacity-100 translate-y-0 transition-all duration-700">
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <GalleryItem
               src="/IMG_3181.jpg"
