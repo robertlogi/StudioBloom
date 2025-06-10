@@ -118,8 +118,8 @@ export default function GalleryPage() {
 function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
-      className="group relative w-full min-w-[200px] aspect-[4/5] overflow-hidden rounded-lg animate-fade-in"
-      style={{ animationDelay: `${delay}ms`, minHeight: "320px" }}
+      className="group relative aspect-[4/5] w-full max-w-xs overflow-hidden rounded-lg animate-fade-in"
+      style={{ animationDelay: `${delay}ms` }}
     >
       <Image
         src={src || "/placeholder.svg"}
@@ -131,30 +131,3 @@ function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
   )
 }
 
-
-function CategoryCard({
-  title,
-  description,
-  imageSrc,
-  delay = 0,
-}: {
-  title: string
-  description: string
-  imageSrc: string
-  delay?: number
-}) {
-  return (
-    <div
-      className="bg-white rounded-lg overflow-hidden hover:shadow-md transition-all duration-500 animate-fade-in"
-      style={{ animationDelay: `${delay}ms` }}
-    >
-      <div className="relative h-60 w-full">
-        <Image src={imageSrc || "/placeholder.svg"} alt={title} fill className="object-cover" />
-      </div>
-      <div className="p-6">
-        <h3 className="text-2xl text-[#2c3e2d] mb-2">{title}</h3>
-        <p className="text-[#4a4a4a]">{description}</p>
-      </div>
-    </div>
-  )
-}
