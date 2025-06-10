@@ -119,7 +119,7 @@ function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
   return (
     <div
       className="group relative w-full min-w-[200px] aspect-[4/5] overflow-hidden rounded-lg animate-fade-in"
-      style={{ animationDelay: `${delay}ms` }}
+      style={{ animationDelay: `${delay}ms`, minHeight: "320px" }}
     >
       <Image
         src={src || "/placeholder.svg"}
