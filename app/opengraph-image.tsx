@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 import { SITE_CONFIG } from '@/lib/seo'
 
-export const runtime = 'edge'
+export const dynamic = 'force-static'
 export const alt = 'Studio Bloom - Lúxus silkiblóm í áskrift'
 export const contentType = 'image/png'
 export const size = {

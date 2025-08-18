@@ -175,10 +175,10 @@ export function ServicesClient() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "Hversu lengi endast silkiblómin?",
+                "name": "Er hægt að panta sérhannaða skreytingu fyrir viðburði?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Silkiblómin okkar eru hágæða og endast í mörg ár ef þau eru meðhöndluð rétt. Þau þurfa enga sérstaka umhirðu, aðeins að rykhreinsa þau af og til."
+                  "text": "Já, innifalið er ráðgjöf, afhending, uppsetning og sótt eftir viðburð. Best er að panta með góðum fyrirvara."
                 }
               },
               {
@@ -194,7 +194,7 @@ export function ServicesClient() {
                 "name": "Afhendið þið um allt Ísland?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Já, við afhendum um allt land. Afhendingarkostnaður er innifalinn í verði áskriftar fyrir fyrirtæki í Reykjavík og nágrenni."
+                  "text": "Nei, ekki ennþá. Við þjónustum nú aðeins höfuðborgarsvæðið en stefnum á að bjóða afhendingu víðar á næstunni."
                 }
               },
               {
