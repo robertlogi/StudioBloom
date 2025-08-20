@@ -145,7 +145,7 @@ function GalleryItem({ src, delay = 0 }: { src: string; delay?: number }) {
     >
       <Image
         src={src || "/placeholder.svg"}
-        alt="Falleg silkiblómaskreyting frá Studio Bloom í Reykjavík"
+        alt="Falleg silkiblómaskreyting frá Studio Bloom"
         fill
         className="object-cover transition-transform duration-500 group-hover:scale-105"
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"

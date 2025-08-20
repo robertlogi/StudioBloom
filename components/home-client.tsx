@@ -38,7 +38,7 @@ export function HomeClient() {
         >
           <Image
             src="/hero-section-flowers.jpeg"
-            alt="Falleg silkiblóm frá Studio Bloom í Reykjavík - Hágæða silkiblóm í áskrift"
+            alt="Falleg silkiblóm frá Studio Bloom - Hágæða silkiblóm í áskrift"
             fill
             className="object-cover"
             priority
@@ -52,7 +52,7 @@ export function HomeClient() {
             <span className="block font-medium">Bloom</span>
           </h1>
           <p className="text-white text-xl md:text-2xl mb-10 font-normal animate-fade-in animation-delay-200">
-            Hágæða silkiblóm í áskrift í Reykjavík
+            Hágæða silkiblóm í áskrift
           </p>
           <Link
             href="/thjonusta"
@@ -68,7 +68,7 @@ export function HomeClient() {
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${welcomeInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl text-[#2c3e2d] mb-6">Velkomin í Studio Bloom í Reykjavík</h2>
+            <h2 className="text-4xl md:text-5xl text-[#2c3e2d] mb-6">Velkomin í Studio Bloom</h2>
             <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg leading-loose whitespace-pre-line">
               Silkiblóm í áskrift færa líf og fegurð inn á þinn vinnustað.
               {"\n"}
@@ -87,7 +87,7 @@ export function HomeClient() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl text-[#2c3e2d] mb-6">Myndasafn silkiblóma</h2>
             <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg">
-              Skoðaðu nokkur dæmi um fallegar blómasamsetningar sem við höfum hannað fyrir fyrirtæki í Reykjavík.
+              Skoðaðu nokkur dæmi um fallegar blómasamsetningar sem við höfum hannað fyrir fyrirtæki á höfuðborgarsvæðinu.
             </p>
           </div>
 
@@ -126,7 +126,7 @@ export function HomeClient() {
         <div className="absolute inset-0 w-full h-full z-0">
           <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2004_Shot%2014_2710.JPG-LW1ZLPqrPqv3WuZWZJpphvvLbYTI3q.jpeg"
-            alt="Tilbúin að byrja? bakgrunnsmynd fyrir silkiblóm í Reykjavík"
+            alt="Tilbúin að byrja? bakgrunnsmynd fyrir silkiblóm á höfuðborgarsvæðinu"
             className="w-full h-full object-cover"
             sizes="100vw"
           />
@@ -138,7 +138,7 @@ export function HomeClient() {
           <div className="bg-[#f3f0eb] p-10 md:p-16 lg:p-10 rounded-lg text-center max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl text-[#2c3e2d] mb-6">Tilbúin að byrja?</h2>
             <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg mb-8">
-              Komdu í hóp ánægðra viðskiptavina Studio Bloom í Reykjavík og njóttu þess að hafa falleg blóm á þínum vinnustað allt árið.
+              Komdu í hóp ánægðra viðskiptavina Studio Bloom og njóttu þess að hafa falleg blóm á þínum vinnustað allt árið.
             </p>
             <Link
               href="/hafa-samband"
@@ -157,7 +157,7 @@ export function HomeClient() {
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Silkiblóm í áskrift",
-            "description": "Hágæða silkiblóm í áskrift fyrir fyrirtæki og heimili í Reykjavík. Sérhönnuð blómasamsetningar sem endast árum saman.",
+            "description": "Hágæða silkiblóm í áskrift fyrir fyrirtæki og heimili á höfuðborgarsvæðinu. Sérhönnuð blómasamsetningar sem endast árum saman.",
             "provider": {
               "@type": "Organization",
               "name": "Studio Bloom",
@@ -227,7 +227,7 @@ function GalleryPreviewItem({ src, delay = 0 }: { src: string; delay?: number })
     >
       <Image
         src={src || "/placeholder.svg"}
-        alt="Falleg silkiblómaskreyting frá Studio Bloom í Reykjavík"
+        alt="Falleg silkiblómaskreyting frá Studio Bloom"
         fill
         className="object-cover transition-transform duration-500 group-hover:scale-105"
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"

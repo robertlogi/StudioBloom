@@ -60,11 +60,11 @@ export function ContactClient() {
               <div className="mt-12 bg-[#f3f0eb] p-8 rounded-lg">
                 <h3 className="text-2xl text-[#2c3e2d] mb-4">Fylgstu með okkur</h3>
                 <p className="text-[#4a4a4a] mb-6">
-                  Fylgstu með okkur á samfélagsmiðlum til að sjá nýjustu blómaskreytingarnar okkar og fá innblástur fyrir þitt rými í Reykjavík.
+                  Fylgstu með okkur á samfélagsmiðlum til að sjá nýjustu blómaskreytingarnar okkar og fá innblástur fyrir þitt rými.
                 </p>
                 <div className="flex space-x-4">
                   <a
-                    href="https://www.instagram.com/studio.bloom.reykjavik?igsh=OGo2c3l6ZnAzZHc0"
+                    href="https://www.instagram.com/studiobloom.is/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#2c3e2d] text-white p-3 rounded-full hover:bg-[#1a2a1b] transition-colors"
@@ -147,7 +147,7 @@ export function ContactClient() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Studio Bloom",
-            "description": "Hágæða silkiblóm í áskrift fyrir fyrirtæki og heimili í Reykjavík",
+            "description": "Hágæða silkiblóm í áskrift fyrir fyrirtæki og heimili",
             "url": SITE_CONFIG.url,
             "telephone": "+354-783-0052",
             "email": "asta@studiobloom.is",
@@ -163,7 +163,7 @@ export function ContactClient() {
             },
             "openingHours": "Mo-Fr 09:00-17:00",
             "sameAs": [
-              "https://www.instagram.com/studio.bloom.reykjavik",
+              "https://www.instagram.com/studiobloom.is/",
               "https://www.facebook.com/profile.php?id=61574531437395"
             ],
             "serviceArea": {

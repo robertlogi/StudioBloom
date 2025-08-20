@@ -48,7 +48,7 @@ export function AboutClient() {
             <div className="relative h-[500px] w-full rounded-lg overflow-hidden">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20240619_SILKKA_SS25_CAMPAIGN_Thema%2001_Shot%2003_1170%20kopie.JPG-I1kXIsBEJ6NS3gRPVzqz7tg78Y0XvA.jpeg"
-                alt="Studio Bloom - Saga og gildi fyrirtækisins í Reykjavík"
+                alt="Studio Bloom - Saga og gildi fyrirtækisins"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
