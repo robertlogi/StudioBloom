@@ -33,7 +33,7 @@ export function ContactClient() {
               <p className="text-[#4a4a4a] text-lg mb-8">
                 Hafðu samband við okkur ef þú hefur einhverjar spurningar um þjónustu okkar eða vilt gerast áskrifandi. Við svörum öllum fyrirspurnum eins fljótt og auðið er.
               </p>
-              <ContactForm />
+              {/* <ContactForm /> */}
             </div>
 
             <div
