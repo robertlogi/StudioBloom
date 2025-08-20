@@ -30,9 +30,9 @@ export function ServicesClient() {
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${servicesInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
         >
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl text-[#2c3e2d] mb-6">Áskriftarleiðir fyrir fyrirtæki í Reykjavík</h2>
+            <h2 className="text-3xl md:text-4xl text-[#2c3e2d] mb-6">Áskriftarleiðir fyrir fyrirtæki á höfuðborgarsvæðinu</h2>
             <p className="text-[#4a4a4a] max-w-3xl mx-auto text-lg">
-              Við bjóðum upp á mismunandi áskriftarleiðir til að mæta þörfum allra viðskiptavina okkar í Reykjavík og um allt Ísland.
+              Við bjóðum upp á mismunandi áskriftarleiðir til að mæta þörfum allra viðskiptavina okkar á höfuðborgarsvæðinu.
               Allar áskriftir innihalda hágæða silkiblóm í vösum og afhendingu í þitt fyrirtæki eða beint heim að dyrum.
               Skreytingin er endurnýjuð á þriggja mánaða fresti til að tryggja ferskt lúkk allt árið um kring.
             </p>
